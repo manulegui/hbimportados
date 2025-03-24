@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 160px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    background-color: papayawhip;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+    font-size: larger;
+    font-family: "Montserrat", serif;
+}
+
+
+
+.subtitulo {
+    text-align: center;
+    padding: 15px;
+    font-family: "Montserrat", serif;
+    background-color: pink;
+    font-size: large;
+}
+
+body {
+    background-image: url(IMAGENESHB/5299831.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .container {
+    display: flex;
+    padding: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content:space-between
+ }
+
+ .tituloprincipal {
+    font-family: "Akaya Telivigala", serif;
+    font-size: 150px;
+    margin-left: 160px;
+    padding-top: 60px;
+    
+ }
+
+ .titulosecundario {
+    font-family: "Akaya Telivigala", serif;
+font-size: 70px;
+padding-top: 240px;
+position:absolute;
+}
+
+.descripcion {
+    font-family: "Montserrat", serif;
+font-size: 22px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.descripcion a {
+    text-decoration: none;
+    color: brown;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+
+}
+
+.titulos {
+    font-family: Montserrat, serif;
+    text-align: center;
+}
+
+   
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.promociones {
+    display: flex;
+    font-family: "Montserrat", serif;
+    justify-content: center;
+    background-image: url(IMAGENESHB/bannerpromo.png);
+    align-items: center;
+    height: 50px;
+    
+
+
+}
+
+.lista {
+    display: flex;
+    gap: 160px;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: papayawhip;
+}
+
+.servicios {
+    display: flex;
+    font-family: "Montserrat", serif;
+    gap: 160px;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    background-color: papayawhip;
+
+
+}
+
+.parrafos {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: lightcyan;
+
+}
+
+caption {
+    font-family: "Montserrat", serif;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+thead th {
+    background-color: lightcyan;
+    font-family: "Montserrat", serif;
+    color: black;
+    padding: 10px;
+}
+
+tbody td {
+    padding: 10px;
+    font-family: "Montserrat", serif;
+    border: 1px solid;
+    text-align: center;
+}
+
+tfoot td {
+    padding: 10px;
+    font-family: "Montserrat", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
